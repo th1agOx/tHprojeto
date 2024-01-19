@@ -1,0 +1,41 @@
+explicando passo a passo
+
+
+// Detalhes
+
+/*
+    O projeto está rodando na porta 5500 ;
+    o arquivo existe um protocolo http, ao abrir "open whith live server", que levará até o browser
+    ( codigo de ip ) ;
+    o servidor está sendo SIMULADO no browser ( edge ) ;
+    o nome dado ao protocolo, se chama dominio, exemplo google.com ;
+    importante criar uma borda, a caixa, visivel de início, como forma de formatação 
+*/
+
+
+
+// PROJETO: 
+
+/*
+    PRIMEIRO PASSO - abrir o projeto importando extensões dentro e fora do editor de codigos,
+    e atraves do arquivo json importar e modificar os arquivos, como atualizando a versão 
+    a licença ... ;
+    SEGUNDO PASSO - criar o index, e configurar a base do html, pelo comando "!", 
+    tudo girará em torno do idex. referênciar com a Tag link onde está o arquivo CS,
+    o arquivo style.css pode receber diversos modelos diferentes, como imagens, cores... ;
+    TERCEIRO PASSO - adição de uma ferramenta externa de interface ;
+    QUARTO PASSO - lidar com os estilos e identidades da sua API. Fontes, imagens, backgrouds
+    formatações, espaços de onde os elementos estarão no mundo ... ; 
+*/
+
+
+
+// FIGMA
+
+// Com a ferramenta mencionada no terceiro passo: 
+
+
+/*
+    Guia de entendimento. Progeto aberto no figma,
+    aba de Style Guide é a guia de estilo responsável pela parte de estética
+    como a cor de página, o tipo de fonte, quais os ícones, quais as imagens etc;

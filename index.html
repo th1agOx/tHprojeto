@@ -1,0 +1,134 @@
+<!--base do HTML 5-->
+<!--aplicação para dispositivo movel-->
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" 
+        rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevLinks</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="profile">
+               <img src="./assets/avatar-dark.png" alt=" Foto de Thiago Rocha, olhando para o lado, 
+               com cabelo pintado de loiro, com camisa branca e cordão, e fundo com luzes brancas">
+               <p id="profile">@rocha_th2</p> 
+            </div>
+            <div id="switch" onclick="toggleMode()">
+                <button></button>
+                <span></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/rocha_th2"target="_blank"> Seguir o artista </a>  
+                </li>
+
+                <li>
+                    <a href="https://open.spotify.com/artist/3H7eIJp4ErWmb8ma3duA2s?si=Dd0NAhvSRo2LI13lxIiN-Q"
+                    target="_blank"> Perfil do Spotify</a> 
+                </li>
+                <li>
+                    <a href="https://github.com/th1agOx"target="_blank"> Ver meu portfólio </a> 
+                </li>
+
+                <li>
+                   <a href="http://rocketseat.com.br/explorer"target="_blank"> Conheça o explorer </a>
+                </li>
+            </ul>
+          
+            <div id="social-links"> 
+            <a href="https://github.com/th1agOx"target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href="https://www.instagram.com/rocha_th2/"target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="https://www.youtube.com/@guxttaofc"target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+            <a href="#"target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            </div>
+            <footer>
+                Feito com ♥ pela<a href="https://rocketseat.com.br" target="_blank"> Rocketseat </a>
+            </footer>
+        </div>
+        <script  
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+        </script>
+        <script 
+        nomodule 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+        </script>
+        <script src="./script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    O head está ajustando as configurações que não são visíveis ao usuários ;
+    A terceira Tag meta é responsável pelas configurações de padrão do site no
+    mobile, como o zoom ;
+    A tag viwport , parte visivel ;
+    A tag link refere o arquivo css, no caso na pasta do projeto ;
+    A tag url mostrará em que local está o arquivo que eu quero referênciar ;
+    A tag repeat deixará ver quantas repetições ocorrerá da imagem no backgroud ;
+    A posição da imagem no meu backgroud é comandado pelo eixo x e pelo eixo y ;
+    A função cover cobrirá todo espaço
+    A função border é responsável pelo reconhecimento da caixa, sem a aplicação de estilo ;
+    No css a altura da imagem não precisa ser posta, somente a largura ;
+    A tag display block mostra a largura que está disponível na página ,
+    a tag margin auto, centralisa elementos block. 
+    porém, o elemento image, é inline, com isso a tag não se torna eficaz.
+    usando assim a função Display block, com ela se tornando block, usaremos o 
+    elemento margin auto ;
+    O * é um seletor universal, pode ser usado quando quiser aplicar uma regra geral
+    ao css ;
+    A id target contém o _blank, que será responsável por criar outra aba
+    não deixando o usuário sair da página ;
+    O display flex, alinha os elementos de uma lista de forma flexivel ;
+    Root: é uma váriavel css global, e referenciado no html ;
+    Svg é uma formatação que desenha uma imagem de maneira programaticav ;
+    A url da imagem é referiada no background image ;
+    A função border-radius transforma em circulo se acompanhada de %, 
+    e ao ser acompanhada de "px", é arredondada somente nas laterais, não totalmente. ;
+  *  Por padrão os elementos block estarão ( ao não serem posicionados ainda ), um a baixo do outro
+    sendo eles, displays bloks. ;
+  * Position absolute, faz uma sobreposição de camadas, "juntando" dois elementos,
+    A função z-index permite escolher qual elemento será sobreposto
+    ( o primeiro, o segundo e em diante... ).
+    A função right ou left dará as posições do elemento block e
+    A position relative, deixará a posição relativa ao elemento que está em positin absolute;
+  *  A função transform translate; funciona como posicionamentos de elementos, usando as cordenadas
+    dos eixos x, y , z ( eixos que as medidas podem se comportar. )
+    A função hover em css disponibiliza um elemento temporário ( descanço de mouse );
+    A tag A ( do HTML ), contém elementos inline, ( no CSS ).
+    A referenciação do javascript pode ocorrer também pelo id de uma tag ja criada.
+    Referenciando assim uma função, ou um comportamento por meio de um objeto, um arrai, etc... ;
+    A função togglemode vai trazer o meu arquivo em js, e executar ele, pelo onclick.
+    Src mostra onde está meu arquivo em javaScript
+    toggleMode + onclick é responsavel por disparar eventos
+    O seletor target="_blank", direciona o link ao ser criado em outra pasta, não saindo assim
+    do meu site.
+-->

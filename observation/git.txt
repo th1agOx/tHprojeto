@@ -1,0 +1,6 @@
+Git comandos:
+
+git -v -> Ver qual a versão instalada do git -v (flag) ;
+git init -> inicia um projeto repositório ( é uma pasta escondida ) ;
+git add . -> adciona em uma pasta TODOS arquivos codados , caso tenha sido mexidos , o git sinalisa com um "M";
+git commit -m -> possibilidade de escrever uma mensagem , marcando já em um posto da historia
