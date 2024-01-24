@@ -6,3 +6,5 @@ git add . -> adciona em uma pasta TODOS arquivos codados , caso tenha sido mexid
 git commit -m -> possibilidade de escrever uma mensagem , marcando já em um posto da historia
 
 * usar uma depositorio remoto.
+* quando fazer os pontos na historia? commita o ponto assim que fizer uma alteração no codigo;
+
