@@ -10,7 +10,6 @@
 /* links */
 :root {
     --text-color: white;        /* dark mode */
-    --bg-url: url(./assets/bg-mobile.jpg);
     --strok-color: rgba(255, 255, 255, 0.5);  /*borda*/
     --surface-color: rgba(255, 255, 255, 0.05);  /*backgroud*/
     --surface-color-hover: rgba(0, 0, 0, 0.02);  /*descanço de mouse*/
@@ -20,7 +19,6 @@
 
 .light {
     --text-color: black;        /* light mode */ 
-    --bg-url: url(./assets/bg-mobile-light.jpg);
     --strok-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -29,9 +27,8 @@
 }
 
 body {
-   /* background: cor imagem repeat position/size; 
-   */
    background: var(--bg-url) no-repeat top center/cover;
+   height: 100vh;       /* altura de 100% da viewport height ( area visível ) */
 }
 
 body * {
@@ -177,4 +174,32 @@ footer{
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
+}
+
+/* media queries */
+/* tudo que se inicia com o '@' em css é chamado de at roule = @ de algo */
+
+/* o media, alterará o background quando a largura for Xpx, ou seja 
+quando a aplicação for acessada em um dispositivo maior que o mobile .
+* Ela só funcionará se a terceira tag meta no HTML estiver setada */
+
+/* reescrevendo o root - para o background de descktop - */
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop-dark.jpg)
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg)
+    }
+}
+
+@media (max-width: 699px) {
+    :root {
+        --bg-url: url(./assets/bg-mobile.jpg)
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-mobile-light.jpg)
+    }
 }
