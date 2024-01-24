@@ -3,8 +3,14 @@ Git comandos:
 git -v -> Ver qual a versão instalada do git -v (flag) ;
 git init -> inicia um projeto repositório ( é uma pasta escondida ) ;
 git add . -> adciona em uma pasta TODOS arquivos codados , caso tenha sido mexidos , o git sinalisa com um "M";
-git commit -m -> possibilidade de escrever uma mensagem , marcando já em um posto da historia
+git commit -m -> salvar e escrever uma mensagem , marcando já em um posto da historia. 
+git push -> enviar o codigo já commitado
+git ed . -> eviado para o local de arquivos alterados ( STANDLES )
+git pull -> puxando uma branch main 
+git fetch -> puxando uma branch 
 
 * usar uma depositorio remoto.
+* commit -> salvar o codigo com um comentario
 * quando fazer os pontos na historia? commita o ponto assim que fizer uma alteração no codigo;
-
+* commitar assim que terminar a alteração e logo apos fazer o push do projeto salvo
+* M -> modificado
