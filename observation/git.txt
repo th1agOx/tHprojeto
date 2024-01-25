@@ -9,7 +9,7 @@ git ed . -> eviado para o local de arquivos alterados ( STANDLES )
 git pull -> puxando uma branch main 
 git fetch -> puxando uma branch 
 
-* usar uma depositorio remoto.
+* usar uma repositorio remoto.
 * commit -> salvar o codigo com um comentario
 * quando fazer os pontos na historia? commita o ponto assim que fizer uma alteração no codigo;
 * commitar assim que terminar a alteração e logo apos fazer o push do projeto salvo
