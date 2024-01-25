@@ -1,4 +1,3 @@
-/* regra geral */
 * {
     margin: 0px ;
     padding: 0px ;
@@ -82,12 +81,18 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: mov-out 0.2s;
+}
+
+#switch button:hover {              /* hover não pode espaçar do button */
+    outline: 8px solid var(--hightligh-color);
 }
 
 
 .light #switch button {
-    right: 0;
-    left: initial;
+   animation: mov-in 0.27s forwards;  /* manter as propriedades, de ida e de volta do botão */
+   
 }
 
 
@@ -201,5 +206,27 @@ quando a aplicação for acessada em um dispositivo maior que o mobile .
 
     .light {
         --bg-url: url(./assets/bg-mobile-light.jpg)
+    }
+}
+
+/* at roules de animação do buttom */
+
+@keyframes mov-in {
+    from { 
+        left: 0;
+    }
+
+    to{
+        left: 50%;  /* distancia */
+    }
+}
+
+@keyframes mov-out {
+    from {
+        left: 50%;
+    }
+
+    to{
+        left: 0;
     }
 }

@@ -39,3 +39,20 @@ explicando passo a passo
     Guia de entendimento. Progeto aberto no figma,
     aba de Style Guide é a guia de estilo responsável pela parte de estética
     como a cor de página, o tipo de fonte, quais os ícones, quais as imagens etc;
+*/
+
+
+/*
+    Após a aplicação dos dois modos - light e dark - 
+    O projeto foi enviado ao github, e explicado pelo arquivo README.mb
+    local destinado ao envio, e explicação do projeto.
+*/
+
+
+/* 
+    Além do projeto em um repoditorio, foram feitas alterações de formatação
+    para que a aplicação se torne compactada para qualquer diferente tipo de dispositivo
+    Foram concertados " bugs ", e lapidado detalhes como animações e descrições para o github.
+/*
+
+*estudar position em css
